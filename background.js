@@ -6,7 +6,8 @@ chrome.webRequest.onBeforeRequest.addListener(
         return { redirectUrl: url.href };
       }
     },
-    { urls: ["https://chat.openai.com"] },
-    // ["blocking"]
+    // { urls: ["https://chat.openai.com/*"] },
+      { urls: ["<all_urls>"] },
+    ["blocking"]
   );
   
