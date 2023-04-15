@@ -13,7 +13,7 @@
     ],
     "action": {
       "default_icon": {
-        "48": "toolkit.png"
+        "48": "icon.png"
       }
     },
     "background": {
