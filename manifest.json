@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Toolkit",
+    "version": "0.1.0",
+    "description": "Make chat.openai.com better with an opinionated set of extensions",
+    "icons": {
+      "48": "icon.png"
+    },
+    "permissions": [
+      "webRequest",
+      "webNavigation",
+      "https://chat.openai.com"
+    ],
+    "action": {
+      "default_icon": {
+        "48": "toolkit.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
