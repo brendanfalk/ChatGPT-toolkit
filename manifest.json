@@ -1,16 +1,17 @@
 {
-    "manifest_version": 2,
-    "name": "ChatGPT Toolkit",
-    "version": "0.1.0",
-    "description": "Make chat.openai.com better with an opinionated set of extensions",
+    "manifest_version": 3,
+    "name": "Use GPT-4 in ChatGPT",
+    "version": "0.2.1",
+    "description": "Automatically selects the GPT-4 model in new chats in ChatGPT",
     "icons": {
       "48": "icon.png"
     },
     "permissions": [
-      "webRequest",
       "webNavigation",
-      "webRequestBlocking",
-      "<all_urls>"
+      "tabs"
+    ],
+    "host_permissions" : [
+      "https://chat.openai.com/*"
     ],
     "background": {
       "service_worker": "background.js"
