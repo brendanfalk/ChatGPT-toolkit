@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
-    "name": "Use GPT-4 in ChatGPT",
+    "name": "Automatically use GPT-4 in ChatGPT",
     "version": "0.2.1",
     "description": "Automatically selects the GPT-4 model in new chats in ChatGPT",
     "icons": {
-      "48": "icon.png"
+      "48": "images/icon-2.png"
     },
     "permissions": [
       "webNavigation",
